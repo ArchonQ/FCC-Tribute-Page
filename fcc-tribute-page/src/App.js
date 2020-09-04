@@ -13,6 +13,7 @@ function App() {
 						src='https://upload.wikimedia.org/wikipedia/commons/1/14/John_Piper.jpg'
 						alt='John Piper head shot'
 					/>
+					<p id='img-caption'>Pastor Piper</p>
 				</div>
 
 				<a
