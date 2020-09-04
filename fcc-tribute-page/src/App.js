@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+
 import './App.css';
 
 function App() {
@@ -7,18 +7,21 @@ function App() {
 		<div className='App' id='main'>
 			<header className='App-header'>
 				<h1 id='title'>Dr. John Piper</h1>
+				<div id='img-div'>
+					<img
+						id='image'
+						src='https://upload.wikimedia.org/wikipedia/commons/1/14/John_Piper.jpg'
+						alt='John Piper head shot'
+					/>
+				</div>
 
-				<img src={logo} className='App-logo' alt='logo' />
-				<p>
-					Edit <code>src/App.js</code> and save to reload.
-				</p>
 				<a
 					className='App-link'
-					href='https://reactjs.org'
+					href='https://www.desiringgod.org/'
 					target='_blank'
 					rel='noopener noreferrer'
 				>
-					Tribute Page
+					Desiring God Website
 				</a>
 			</header>
 		</div>
