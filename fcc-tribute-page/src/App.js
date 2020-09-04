@@ -31,7 +31,7 @@ function App() {
 						</div>
 
 						<a
-							className='App-link'
+							id='tribute-link'
 							href='https://www.desiringgod.org/'
 							target='_blank'
 							rel='noopener noreferrer'
