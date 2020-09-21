@@ -1,42 +1,67 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-#image {
-	display: block;
-
-	border-radius: 50%;
-	max-width: 70%;
-	min-width: 50%;
-	max-height: 70%;
-	min-height: 50%;
-}
-
-#img-div {
-	flex-direction: column;
-	display: flex;
-}
-
-container {
-	display: flex;
-	flex-direction: row;
-	flex-basis: auto;
+* {
+	box-sizing: border-box;
 }
 
 .App {
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
+	margin: 0;
 }
 
-.App-header {
-	background-color: white;
-	min-height: 100vh;
+nav {
+	background-color: #fff;
+	padding: 10px;
+}
+ul {
 	display: flex;
-	flex-direction: column;
-	align-items: center;
 	justify-content: center;
-	font-size: calc(10px + 2vmin);
-	color: black;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
 }
 
-#tribute-link {
+ul li a {
 	color: rgb(196, 32, 38);
+	padding: 15px;
+	text-decoration: none;
+}
+
+#image {
+	border-radius: 50%;
+	flex: 100%;
+	max-width: 100%;
+}
+
+h2 {
+	text-align: center;
+}
+
+section {
+	padding: 20px;
+	margin: 15px auto 0;
+}
+
+.container {
+	display: flex;
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+footer {
+	background-color: #fff;
+	color: rgb(196, 32, 38);
+	padding: 15px;
+	text-align: center;
+}
+
+.bg-red {
+	background-color: rgb(196, 32, 38);
+}
+.social-ul {
+}
+
+.c-w {
+	color: #fff;
 }
