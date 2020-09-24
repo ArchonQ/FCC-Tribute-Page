@@ -8,6 +8,7 @@ function App() {
 	return (
 		<div className='App' id='main'>
 			<nav>
+				6
 				<ul>
 					<li>
 						<a href='#about'>About</a>
@@ -56,7 +57,7 @@ function App() {
 						></div>
 					</div>
 
-					<div>
+					<div id='img-div'>
 						<img
 							id='image'
 							src='https://upload.wikimedia.org/wikipedia/commons/1/14/John_Piper.jpg'
