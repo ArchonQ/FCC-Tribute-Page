@@ -49,6 +49,10 @@ section {
 	margin: 0 auto;
 }
 
+.social-ul a {
+	font-size: 32px;
+}
+
 footer {
 	background-color: #fff;
 	color: rgb(196, 32, 38);

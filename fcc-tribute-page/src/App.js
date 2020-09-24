@@ -26,16 +26,23 @@ function App() {
 
 			<section id='about'>
 				<div className='container'>
-					<div>
+					<div id='tribute-info'>
 						<h1>John Piper</h1>
 						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-							eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-							enim ad minim veniam, quis nostrud exercitation ullamco laboris
-							nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-							reprehenderit in voluptate velit esse cillum dolore eu fugiat
-							nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-							sunt in culpa qui officia deserunt mollit anim id est laborum.
+							John Piper is founder and teacher of desiringGod.org and
+							chancellor of Bethlehem College & Seminary. For 33 years, he
+							served as pastor of Bethlehem Baptist Church, Minneapolis,
+							Minnesota. He is author of{' '}
+							<a href='https://www.desiringgod.org/books'>more than 50 books</a>{' '}
+							including{' '}
+							<a href='https//www.desiringgod.org/books/desiring-god'>
+								<em>Desiring God: Meditations of a Christian Hedonist</em>
+							</a>{' '}
+							and most recently{' '}
+							<a href='https://www.desiringgod.org/books/coronavirus-and-christ'>
+								<em>Coronavirus and Christ</em>
+							</a>
+							.
 						</p>
 						<p>
 							Desiring God's YouTube Channel has over 4,200 video resources.
@@ -128,22 +135,38 @@ function App() {
 				<h2>Follow him on</h2>
 				<ul className='container social-ul'>
 					<li>
-						<a href='#' className='c-w'>
+						<a
+							href='https://www.facebook.com/JohnPiper'
+							target='_blank'
+							className='c-w'
+						>
 							Facebook
 						</a>
 					</li>
 					<li>
-						<a href='#' className='c-w'>
-							<i className='fab fa-twitter'></i>
+						<a
+							href='https://twitter.com/JohnPiper?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor'
+							target='_blank'
+							className='c-w'
+						>
+							Twitter
 						</a>
 					</li>
 					<li>
-						<a href='#' className='c-w fab fa-instagram'>
+						<a
+							href='https://www.instagram.com/johnstephenpiper/?hl=en'
+							target='_blank'
+							className='c-w fab fa-instagram'
+						>
 							Instagram
 						</a>
 					</li>
 					<li>
-						<a href='#' className='c-w'>
+						<a
+							href='https://www.youtube.com/c/desiringGod/featured'
+							target='_blank'
+							className='c-w'
+						>
 							YouTube
 						</a>
 					</li>
