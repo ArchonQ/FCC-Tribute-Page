@@ -8,7 +8,6 @@ function App() {
 	return (
 		<div className='App' id='main'>
 			<nav>
-				6
 				<ul>
 					<li>
 						<a href='#about'>About</a>
@@ -27,8 +26,8 @@ function App() {
 
 			<section id='about'>
 				<div className='container'>
-					<div id='tribute-info'>
-						<h1>John Piper</h1>
+					<div id='tribute-info' className='tribute-info'>
+						<h1 id='title'>John Piper</h1>
 						<p>
 							John Piper is founder and teacher of desiringGod.org and
 							chancellor of Bethlehem College & Seminary. For 33 years, he
@@ -57,24 +56,22 @@ function App() {
 						></div>
 					</div>
 
-					<div id='img-div'>
+					<div id='img-div' className='img-div'>
 						<img
 							id='image'
 							src='https://upload.wikimedia.org/wikipedia/commons/1/14/John_Piper.jpg'
 							alt='John Piper head shot'
 						></img>
-						<p>Dr. John Piper</p>
+						<p id='img-caption'>Dr. John Piper</p>
 					</div>
 				</div>
 			</section>
 
 			<section id='popular'>
 				<h2>Popular Videos</h2>
-				<div className='container'>
+				<div className='video-container'>
 					<div class='video-wrapper'>
 						<iframe
-							width='560'
-							height='315'
 							src='https://www.youtube.com/embed/xqgeT26BAnE'
 							frameborder='0'
 							allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
@@ -84,8 +81,6 @@ function App() {
 
 					<div class='video-wrapper'>
 						<iframe
-							width='560'
-							height='315'
 							src='https://www.youtube.com/embed/jLRue4nwJaA'
 							frameborder='0'
 							allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
@@ -95,8 +90,6 @@ function App() {
 
 					<div class='video-wrapper'>
 						<iframe
-							width='560'
-							height='315'
 							src='https://www.youtube.com/embed/n9QP-cqwyAw'
 							frameborder='0'
 							allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
@@ -106,8 +99,6 @@ function App() {
 
 					<div class='video-wrapper'>
 						<iframe
-							width='560'
-							height='315'
 							src='https://www.youtube.com/embed/YOKWdwSVRYo'
 							frameborder='0'
 							allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
@@ -117,8 +108,6 @@ function App() {
 
 					<div class='video-wrapper'>
 						<iframe
-							width='560'
-							height='315'
 							src='https://www.youtube.com/embed/nSSLLpVChng'
 							frameborder='0'
 							allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
