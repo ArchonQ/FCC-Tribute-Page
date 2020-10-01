@@ -58,6 +58,7 @@ function App() {
 
 					<div id='img-div' className='img-div'>
 						<img
+							className='responsive-image'
 							id='image'
 							src='https://upload.wikimedia.org/wikipedia/commons/1/14/John_Piper.jpg'
 							alt='John Piper head shot'
